@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/image/logo">
+
+    <link rel="icon" href="/image/Azeeztech-image2.png">
+
+    <title>AzeezTech | Frontend Developer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"> -->
+
+    <!-- <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         SPLASH SCREEN
+    ====================================================== -->
+
+    <section class="splash-screen" id="splashScreen">
+
+        <div class="splash-background"></div>
+
+        <div class="splash-overlay"></div>
+
+        <div class="splash-content">
+
+            <div class="splash-logo">
+                <img src="image/Azeeztech-image2.png" alt="@AzeezTech Logo">
+            </div>
+
+            <h1 class="splash-brand">
+                <span>@</span>AzeezTech
+            </h1>
+
+            <p class="splash-profession">
+                a FRONTEND DEVELOPER
+            </p>
+
+            <div class="loading-section">
+
+                <div class="loading-bar">
+                    <div class="loading-progress" id="loadingProgress">
+                    </div>
+                </div>
+
+                <p class="loading-text">
+                    Loading<span class="loading-dots"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         MAIN WEBSITE
+    ====================================================== -->
+
+    <main class="main-website" id="mainWebsite">
+
+        <section class="portfolio-home" id="home">
+
+            <!-- ================= NAVBAR ================= -->
+
+            <header class="portfolio-navbar">
+
+                <div class="navbar-container">
+
+                    <a href="#home" class="portfolio-logo">
+                        <span>@</span>AzeezTech
+                    </a>
+
+                    <nav class="portfolio-nav" id="portfolioNav">
+
+                        <a href="#home" class="nav-link active">Home</a>
+
+                        <a href="#about" class="nav-link">About</a>
+
+                        <a href="#skills" class="nav-link">Skills</a>
+
+                        <a href="#projects" class="nav-link">Projects</a>
+
+                        <a href="#services" class="nav-link">Services</a>
+
+                        <a href="#contact" class="nav-link">Contact</a>
+
+                    </nav>
+
+                    <div class="navbar-actions">
+
+                        <a href="#contact" class="talk-button">
+                            Let's Talk
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <button class="theme-toggle" id="themeToggle" type="button"
+                            aria-label="Toggle dark and light mode">
+                            <i class="fa-solid fa-moon" id="themeIcon"></i>
+                        </button>
+
+                        <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-label="Open menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- ================= HERO ================= -->
+
+            <section class="hero-section">
+
+                <div class="hero-container">
+
+                    <div class="hero-content">
+
+                        <div class="availability">
+                            <span class="availability-dot"></span>
+                            Available for work
+                        </div>
+
+                        <p class="hero-intro">
+                            Hi, I'm
+                        </p>
+
+                        <h1>
+                            Azeez<span>Tech</span>
+                        </h1>
+
+                        <h2>
+                            a Frontend Developer
+                        </h2>
+
+                        <p class="hero-description">
+                            I build modern, responsive and user-focused web
+                            experiences that turn ideas into functional
+                            digital products.
+                        </p>
+
+                        <div class="hero-buttons">
+
+                            <a href="#projects" class="primary-button">
+                                View My Work
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#contact" class="secondary-button">
+                                Let's Talk
+                            </a>
+
+                        </div>
+
+
+                        <!-- ================= SOCIAL LINKS ================= -->
+
+                        <div class="hero-socials">
+
+                            <!-- WHATSAPP -->
+                            <a href="https://wa.me/2348153541163" target="_blank" rel="noopener noreferrer"
+                                aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+
+                            <!-- LINKEDIN -->
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+
+                            <!-- GITHUB -->
+                            <a href="https://github.com/muhammadazeez1356-netizen" target="_blank"
+                                rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <!-- INSTAGRAM -->
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <!-- TIKTOK -->
+                            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="TikTok" class="social-tiktok">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+
+                            <!-- X -->
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X"
+                                class="social-x">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+
+                            <!-- EMAIL -->
+                            <a href="mailto:muhammedazeez1356@gmail.com" aria-label="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= PROFILE IMAGE ================= -->
+
+                    <div class="hero-visual">
+
+                        <div class="hero-image-background"></div>
+
+                        <div class="hero-image-wrapper">
+
+                            <img src="image/azeez-profile.png" alt="AzeezTech Frontend Developer"
+                                class="hero-profile-image">
+
+                        </div>
+
+
+                        <div class="developer-card">
+
+                            <div class="developer-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <h3>
+                                Frontend Developer
+                            </h3>
+
+                            <p>
+                                Building modern web
+                                experiences.
+                            </p>
+
+                            <div class="developer-project-count">
+
+                                <strong>03+</strong>
+
+                                <span>
+                                    Projects
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="build-text">
+
+                            <span>Build</span>
+                            <span>Create</span>
+                            <span>Improve</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================= CONNECT PANEL ================= -->
+
+                <div class="connect-panel" id="connectPanel">
+
+                    <div class="connect-header">
+
+                        <h3>
+                            Let's Connect
+                        </h3>
+
+                        <button type="button" id="connectClose" class="connect-close" aria-label="Close contact panel">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+
+                    </div>
+
+
+                    <!-- WhatsApp -->
+
+                    <a href="https://wa.me/2348153541163" target="_blank" rel="noopener noreferrer"
+                        class="connect-item whatsapp">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                WhatsApp
+                            </strong>
+
+                            <span>
+                                Chat with me directly
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- LinkedIn -->
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                        class="connect-item linkedin">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                LinkedIn
+                            </strong>
+
+                            <span>
+                                Connect with me
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- GitHub -->
+
+                    <a href="https://github.com/muhammadazeez1356-netizen" target="_blank"
+                        rel="noopener noreferrer" class="connect-item github">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                GitHub
+                            </strong>
+
+                            <span>
+                                Check my code
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Instagram -->
+
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                        class="connect-item instagram">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                Instagram
+                            </strong>
+
+                            <span>
+                                Follow me
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- TikTok -->
+
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"
+                        class="connect-item tiktok">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                TikTok
+                            </strong>
+
+                            <span>
+                                Follow me on TikTok
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- X -->
+
+                    <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="connect-item x-twitter">
+
+                        <div class="connect-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                X
+                            </strong>
+
+                            <span>
+                                Follow me on X
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Email -->
+
+                    <a href="mailto:muhammedazeez1356@gmail.com" class="connect-item email">
+
+                        <div class="connect-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div class="connect-info">
+
+                            <strong>
+                                Email
+                            </strong>
+
+                            <span>
+                                Send me a message
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- ================= MESSAGE BUTTON ================= -->
+
+                <button type="button" class="floating-message" id="floatingMessage" aria-label="Open contact options">
+                    <i class="fa-regular fa-comment"></i>
+                </button>
+
+            </section>
+
+
+            <!-- ================= TECHNOLOGIES ================= -->
+
+            <section class="technologies-section" id="skills">
+
+                <div class="technologies-container">
+
+                    <div class="technology-heading">
+
+                        <span>
+                            Technologies I Work With
+                        </span>
+
+                        <div></div>
+
+                    </div>
+
+
+                    <div class="technology-list">
+
+                        <div class="technology-item">
+                            <i class="fa-brands fa-html5 html-icon"></i>
+                            <span>HTML5</span>
+                        </div>
+
+                        <div class="technology-item">
+                            <i class="fa-brands fa-css3-alt css-icon"></i>
+                            <span>CSS3</span>
+                        </div>
+
+                        <div class="technology-item">
+                            <i class="fa-brands fa-js js-icon"></i>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="technology-item">
+                            <i class="fa-brands fa-git-alt git-icon"></i>
+                            <span>Git</span>
+                        </div>
+
+                        <div class="technology-item">
+                            <i class="fa-brands fa-github github-tech-icon"></i>
+                            <span>GitHub</span>
+                        </div>
+
+                        <div class="technology-item">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>Responsive Design</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= ABOUT ================= -->
+
+            <section class="about-section" id="about">
+
+                <div class="about-container">
+
+                    <div class="about-image-area">
+
+                        <div class="about-image-circle">
+
+                            <img src="image/about-workspace.jpg" alt="AzeezTech workspace">
+
+                        </div>
+
+                        <span class="about-decoration decoration-one"></span>
+                        <span class="about-decoration decoration-two"></span>
+                        <span class="about-decoration decoration-three"></span>
+
+                    </div>
+
+
+                    <div class="about-content">
+
+                        <span class="section-label">
+                            ABOUT ME
+                        </span>
+
+                        <h2>
+                            I don't just build websites.
+                            <br>
+                            I build <span>experiences.</span>
+                        </h2>
+
+                        <p>
+                            I'm a frontend developer focused on creating
+                            responsive, accessible and visually engaging
+                            web experiences. I love turning ideas into
+                            clean, functional and beautiful websites that
+                            people actually enjoy using.
+                        </p>
+
+                        <a href="#contact" class="about-button">
+                            More About Me
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="about-features">
+
+                        <div class="about-feature">
+
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div>
+                                <strong>Clean Code</strong>
+                                <span>
+                                    Writing maintainable and
+                                    scalable code.
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-feature">
+
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+
+                            <div>
+                                <strong>Responsive Design</strong>
+                                <span>
+                                    Perfect on all devices.
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-feature">
+
+                            <div class="feature-icon">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+
+                            <div>
+                                <strong>User Focused</strong>
+                                <span>
+                                    Designing for real people.
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-feature">
+
+                            <div class="feature-icon">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+
+                            <div>
+                                <strong>Continuous Learning</strong>
+                                <span>
+                                    Always improving my skills.
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= PROJECTS ================= -->
+
+            <section class="projects-section" id="projects">
+
+                <div class="projects-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            FEATURED PROJECTS
+                        </span>
+
+                        <h2>
+                            Projects I've Built
+                        </h2>
+
+                        <p>
+                            A selection of my recent work. Each project
+                            helped me grow and sharpen my skills.
+                        </p>
+
+                    </div>
+
+                    <a href="#projects" class="view-projects">
+                        View All Projects
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="image/al-aleem-dashboard.jpg" alt="Al-Aleem School Dashboard">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Al-Aleem School Dashboard
+                            </h3>
+
+                            <div class="project-technologies">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <p>
+                                A complete school management dashboard
+                                with student, teacher and admin features.
+                            </p>
+
+                            <div class="project-actions">
+
+                                <a href="https://al-aleem-admin-dash-board.vercel.app" target="_blank"
+                                    rel="noopener noreferrer" class="project-button primary">
+                                    Live Demo
+                                </a>
+
+                                <a href="#" class="project-button">
+                                    GitHub
+                                </a>
+
+                                <a href="#" class="project-arrow" aria-label="Open project">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="image/easy-ride-website.jpg" alt="Easy Ride Website">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Easy Ride Website
+                            </h3>
+
+                            <div class="project-technologies">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <p>
+                                A modern ride-hailing website with a clean
+                                and responsive design.
+                            </p>
+
+                            <div class="project-actions">
+
+                                <a href="https://easy-ride-seven.vercel.app" target="_blank" rel="noopener noreferrer"
+                                    class="project-button primary">
+                                    Live Demo
+                                </a>
+
+                                <a href="https://github.com/muhammadazeez1356-netizen" target="_blank"
+                                    rel="noopener noreferrer" class="project-button">
+                                    GitHub
+                                </a>
+
+                                <a href="#" class="project-arrow" aria-label="Open project">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="image/portfolio-project.jpg" alt="Personal Portfolio">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Personal Portfolio
+                            </h3>
+
+                            <div class="project-technologies">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <p>
+                                A responsive portfolio website to showcase
+                                my skills and projects.
+                            </p>
+
+                            <div class="project-actions">
+
+                                <a href="https://in-drive-nine.vercel.app" target="_blank" rel="noopener noreferrer"
+                                    class="project-button primary">
+                                    Live Demo
+                                </a>
+
+                                <a href="https://github.com/muhammadazeez1356-netizen" target="_blank"
+                                    rel="noopener noreferrer" class="project-button">
+                                    GitHub
+                                </a>
+
+                                <a href="#" class="project-arrow" aria-label="Open project">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= SERVICES ================= -->
+
+            <section class="services-section" id="services">
+
+                <div class="services-container">
+
+                    <span class="section-label">
+                        WHAT I DO
+                    </span>
+
+                    <h2>
+                        Building digital experiences
+                        <span>that work.</span>
+                    </h2>
+
+                    <div class="services-grid">
+
+                        <div class="service-item">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <h3>
+                                Frontend Development
+                            </h3>
+
+                            <p>
+                                Modern and responsive websites built
+                                with clean and maintainable code.
+                            </p>
+
+                        </div>
+
+
+                        <div class="service-item">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+
+                            <h3>
+                                Responsive Design
+                            </h3>
+
+                            <p>
+                                Websites that look and work beautifully
+                                across phones, tablets and desktops.
+                            </p>
+
+                        </div>
+
+
+                        <div class="service-item">
+
+                            <div class="service-icon">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+
+                            <h3>
+                                UI Implementation
+                            </h3>
+
+                            <p>
+                                Turning designs and ideas into smooth,
+                                functional user interfaces.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= CONTACT ================= -->
+
+            <section class="contact-section" id="contact">
+
+                <div class="contact-container">
+
+                    <div class="contact-icon">
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+
+                    <div class="contact-text">
+
+                        <h3>
+                            Have an idea, project or opportunity?
+                        </h3>
+
+                        <p>
+                            Let's turn it into something people can use.
+                        </p>
+
+                    </div>
+
+                    <a href="https://wa.me/2348153541163" target="_blank" rel="noopener noreferrer"
+                        class="contact-button">
+                        Start a Conversation
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= FOOTER ================= -->
+
+            <footer class="portfolio-footer">
+
+                <div class="footer-container">
+
+                    <div class="footer-brand">
+
+                        <a href="#home">
+                            <span>@</span>AzeezTech
+                        </a>
+
+                        <p>
+                            Frontend Developer
+                        </p>
+
+                    </div>
+
+
+                    <div class="footer-socials">
+
+                        <a href="https://github.com/muhammadazeez1356-netizen" target="_blank"
+                            rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://wa.me/2348153541163" target="_blank" rel="noopener noreferrer"
+                            aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="mailto:muhammedazeez1356@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+
+                        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                    </div>
+
+
+                    <p class="copyright">
+                        © 2026 @AzeezTech. All rights reserved.
+                    </p>
+
+                </div>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
